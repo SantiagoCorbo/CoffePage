@@ -1,7 +1,10 @@
 body{
   text-align: center;
   font-family: serif;
-  background-color: #4D352E;
+  background-color: #130D0B;
+  padding: 0px;
+  margin: 0px;
+
 }
 
 .ContainerDad{
@@ -12,7 +15,7 @@ body{
   content: '';
   width: 100%;
   height: 100vh;
-  background-image: url(../Pictures/CafeCompleto.jpg);
+  background-image: url(../Pictures/CafeCompleto1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,21 +25,138 @@ body{
   transition: all 1000ms;
 }
 
+
+.StartTitle:hover  {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.header:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
 .StartTitle{
   position: absolute;
   z-index: 1;
-  top: 20%;
-  left: 33%;
+  top: 25%;
+  left: 34%;
   color: #F3C90D;
-  font-family: Montserrat;
+
+  transition: all 1000ms;
 }
 
 .StartTitle h1 {
-  font-size:10rem;
+  font-size:10em;
   margin: 0px;
 }
 
 .StartTitle h2 {
-  font-size: 1rem;
+  font-size: 2em;
   margin: 0px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F3C90D;
+  font-size: 230%;
+}
+h2 {
+  font-family: 'Mulish', sans-serif;
+  color:#BB9C15;
+  font-size: 200%;
+}
+p{
+  font-family: 'Mulish', sans-serif;
+  color:#BB9C15;
+  font-size: 150%;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+text-decoration: none;
+font-size: 160%;
+color: #F3C90D;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  font-family: 'Mulish', sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  padding-left: 2rem;
+
+}
+
+li a:hover{
+  background-color: #201A18;
+}
+
+article {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.imgMainSection {
+  Max-width: 500px;
+  Max-height: 444px;
+  border-radius: 2%;
+}
+
+.Vendemos {
+  background-color: #1E1816;
+}
+.Vendemos h1 {
+  text-align: left;
+  padding-left: 20%;
+  margin-bottom: 20px;
+}
+
+.Grid2Block {
+  display: inline-block;
+  max-width: 35%;
+  max-height: 500px;
+  margin:auto;
+  padding: 0px 30px;
+
+}
+
+.Proviene h1{
+  text-align: left;
+  padding-left: 53%;
+}
+
+.Somos {
+  background-color: #1E1816;
+}
+
+.Grid6Block{
+  max-width: 33%;
+  display: inline-block;
+}
+
+.Grid6Block img {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+footer{
+  text-align: center;
+}
+
+footer a{
+  display: inline-block;
+  margin: 1rem;
+}
+
+footer span {
+  display: block;
+  color: grey;
+  margin-bottom: 10px;
 }
