@@ -1,3 +1,5 @@
+
+/* General rules */
 body{
   text-align: center;
   font-family: serif;
@@ -7,10 +9,38 @@ body{
 
 }
 
-.ContainerDad{
-
+/* Generalrules for labels */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F3C90D;
+  font-size: 230%;
+}
+h2 {
+  font-family: 'Mulish', sans-serif;
+  color:#BB9C15;
+  font-size: 200%;
+}
+p{
+  font-family: 'Mulish', sans-serif;
+  color:#BB9C15;
+  font-size: 150%;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+  padding: 0px;
+  margin: 0px;
 }
 
+a{
+text-decoration: none;
+font-size: 160%;
+color: #F3C90D;
+}
+
+ul{
+  list-style: none;
+
+/* header and main title */
 .header::after {
   content: '';
   width: 100%;
@@ -55,35 +85,7 @@ body{
   margin: 0px;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: #F3C90D;
-  font-size: 230%;
-}
-h2 {
-  font-family: 'Mulish', sans-serif;
-  color:#BB9C15;
-  font-size: 200%;
-}
-p{
-  font-family: 'Mulish', sans-serif;
-  color:#BB9C15;
-  font-size: 150%;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  line-height: 30px;
-  padding: 0px;
-  margin: 0px;
-}
-
-a{
-text-decoration: none;
-font-size: 160%;
-color: #F3C90D;
-}
-
-ul{
-  list-style: none;
+/* Nav bar rules */
 }
 li{
   font-family: 'Mulish', sans-serif;
@@ -99,6 +101,8 @@ li a:hover{
   background-color: #201A18;
 }
 
+
+/* main section rules */
 article {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -146,6 +150,7 @@ article {
   margin-right: 4rem;
 }
 
+/* footer rules */
 footer{
   text-align: center;
 }
