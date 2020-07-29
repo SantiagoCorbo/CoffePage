@@ -37,8 +37,6 @@ font-size: 160%;
 color: #F3C90D;
 }
 
-ul{
-  list-style: none;
 
 /* header and main title */
 .header::after {
@@ -86,7 +84,10 @@ ul{
 }
 
 /* Nav bar rules */
+ul{
+  list-style: none;
 }
+
 li{
   font-family: 'Mulish', sans-serif;
 
